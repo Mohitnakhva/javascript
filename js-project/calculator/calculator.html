@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <p>Calculator</p>
+            <div class="calc">
+                <form>
+                    <div class="mb-3">
+                      <label for="number1" class="form-label">Value1:</label>
+                      <input type="text"  id="number1" required placeholder="Enter value 1">
+                    </div>
+                    <div class="mb-3">
+                      <label for="number2" class="form-label">Value2:</label>
+                      <input type="text" class="form-control" id="number2" placeholder="Enter value 2">
+                    </div>
+                    <div class="btn">
+                        <div class="btn1">
+                            <button id="sum">+</button>
+                        </div>
+                        <div class="btn1">
+                            <button id="sub">-</button>
+                        </div>
+                        <div class="btn1">
+                            <button id="mul">*</button>
+                        </div>
+                        <div class="btn1">
+                            <button id="dev">/</button>
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                
+                        <span id="result" class="res"></span>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </main>
+    <script src="calculator.js">
+        
+    </script>
+</body>
+</html>

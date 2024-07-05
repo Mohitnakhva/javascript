@@ -1,0 +1,135 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 730px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.238);
+}
+.box
+{
+    margin-left: 570px;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+    width: 23%;
+    height: 430px;
+    margin-top: 10px;
+    text-align: center;
+}
+.text
+{
+    padding-top: 50px;
+}
+.in
+{
+    padding-top: 30px;
+}
+.inn
+{
+    position: relative;
+    margin-bottom: -10px;
+}
+.input2
+{
+    margin-bottom: 10px;
+}
+.inn>#spnid
+{
+    position: absolute;
+    top: 38px;
+    left:40px;
+}
+.in>#spnidd
+{
+    position: absolute;
+    top: 38px;
+    left:40px;
+}
+.input-type
+{
+    height: 36px;
+    padding: 6px;
+    background-color:rgba(123, 123, 123, 0.086);
+    width: 80%;
+    margin-bottom: 7px;
+
+}
+.btn
+{
+    width: 80%;
+    background-color: rgba(0, 153, 255, 0.689);
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    height: 30px;
+}
+.hr
+{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    margin-left: 40px;
+}
+.hr>p
+{
+    position: absolute;
+    top: -10px;
+    left: 120px;
+}
+.hr>.hr1
+{
+    width: 120px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+}
+.hr>.hr2
+{
+    width: 120px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.338);
+}
+.btn2
+{
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+a
+{
+    text-decoration: none;
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.76);
+
+}
+.forgot
+{
+    font-size: small;
+}
+.box2
+{
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    width: 23%;
+    height: 60px;
+    text-align: center;
+    margin-left: 570px;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.get
+{
+    margin-left: 700px;
+    
+}
+.icon2
+{
+    display: flex;
+}
+.icon2>image
+{ 
+    height: 100%;
+    width: 50%;
+    
+}

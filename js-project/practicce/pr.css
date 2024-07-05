@@ -1,0 +1,57 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ .container
+ {
+    border: 1px solid black;
+    height:730px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .box
+ {
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    border: 1px solid red;
+
+ }
+ .in>input
+{
+    height: 30px;
+    width: 60%;
+}
+#space
+{
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+    padding: 0%;
+    margin-left: 50px;
+    width: 60%;
+    border: 1px solid blue;
+    background-color: white
+}
+#hello
+{
+    height: 100px;
+    width: 30%;
+    justify-content:end ;
+    border: 1px solid red;
+    display: flex;
+    justify-content:space-around
+}
+.hello>div{
+    height: 100px;
+    width: 30%;
+    justify-content:end ;
+    border: 1px solid red;
+    display: flex;
+    justify-content:end
+}

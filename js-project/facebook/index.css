@@ -1,0 +1,119 @@
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+  background-color: rgba(231, 227, 227, 0.83);
+  align-items: center;
+    height: 730px;
+    width: 100%; 
+    justify-content: space-around;
+    box-shadow:120px;
+   
+}
+.text
+{
+margin-bottom: 100px;
+width: 30%;
+
+
+}
+.fb-logo{
+    height: 106px;
+  margin: -28px;
+}
+.text>p
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    padding-top: 20px;
+}
+.contain
+{
+    border:1px solid rgba(14, 4, 4, 0.467);
+    border-radius:5px;
+    height: 330px;
+    box-shadow: inset;
+    width: 400px;
+    margin-top: -100px;
+    margin-left: -200px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+input
+{
+width:380px;
+height: 50px;
+padding: 15px;
+font-size: 20px;
+border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.421);
+}
+
+.btn-log
+{
+    width: 380px;
+    border: 1px solid rgba(0, 0, 0, 0.489);
+    height: 50px;
+    background-color: rgb(101, 101, 245);
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.mb-3
+{
+    position: relative;
+}
+ .hey{
+    position: relative;
+} 
+.hey>span
+{
+    position: absolute;
+    /* padding-left: 350px; */
+    /* margin-top: -32px; */
+    top: 15px;
+    right: 5px;
+}
+span>i{
+    font-size: 25px;
+}
+.forget
+{
+    text-align: center;
+    color: blue;
+}
+.hr
+{
+    border:1px solid rgba(0, 0, 0, 0.234);
+    margin-bottom: 15px;
+}
+.create
+{
+    padding-left: 100px;
+}
+.create-btn
+{
+    width: 190px;
+    height:50px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(2, 236, 2);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.462);
+}
+.text1
+{
+    margin-top: -230px;
+    text-align: center;
+    padding-left: 670px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORD COUNT</title>
+    <link rel="stylesheet" href="wordcount.css">
+    <body>
+        <div class="container">
+            <h2>ENTER THE TEXT</h2>
+            <input type="text" id="inputText" placeholder="Type your sentence here" />
+            <div>
+                <button onclick="toUppercase()">Uppercase</button>
+                <button onclick="toLowercase()">Lowercase</button>
+                <button onclick="clearText()">Clear</button>
+                <button onclick="wordCount()">Word Count</button>
+                <button onclick="removeSpaces()">Remove Spaces</button>
+                <button onclick="countLetters()">Count Letters</button>
+            </div>
+            <div id="result"><div></div></div>
+        </div>
+        <script src="wordcount.js"></script>
+</body>

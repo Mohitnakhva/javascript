@@ -7,5 +7,5 @@ function handlekey()
 {
    let a=document.getElementById("pass").value
    document.getElementById("hello").innerHTML=a
-   document.getElementById("hello").style.fontSize="7  0px"
+   document.getElementById("hello").style.fontSize="70px"
 }

@@ -1,6 +1,6 @@
 function handle(){
    a= document.getElementById("pass").value
-    if(a>=90)
+    if(a>90 && a<=100)
         {
             confirm("grade:A")
         }
@@ -24,8 +24,13 @@ function handle(){
              {
             confirm("Grade:F")
              }
+         else if(a>=30 && a<=40)
+             {
+            confirm("fail")
+             }     
+
         else
         {
-            confirm("FAIL")
+            confirm("please enter valid number")
         }
     }

@@ -54,7 +54,7 @@ sumButton3.addEventListener('click', function (event) {
     num1 = parseInt(num1); // Convert to number
      num2 = parseInt(num2); // Convert to number
 
-    let result1 = num1 * num2;
+    let result1 = num1 / num2;
 
     let result = document.getElementById('result');
     result.innerHTML = result1;

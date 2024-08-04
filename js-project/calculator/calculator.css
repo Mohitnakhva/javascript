@@ -79,10 +79,10 @@ border: 1px solid red;
     color: aliceblue;
     font-size: 20px;
 }
-.btn1>#dev
+.btn1>#div
 {
     background-color: rgb(10, 152, 60);
-    color: aliceblue;
+    color: rgb(15, 105, 183);
     font-size: 20px;
 }
 .mb-2
